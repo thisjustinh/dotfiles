@@ -1,0 +1,58 @@
+INFO     2020-01-13 16:06:21,490 [20969:MainThread] mopidy.__main__
+  Starting Mopidy 3.0.1
+INFO     2020-01-13 16:06:21,553 [20969:MainThread] mopidy.config
+  Loading config from builtin defaults
+INFO     2020-01-13 16:06:21,556 [20969:MainThread] mopidy.config
+  Loading config from file:///home/justin/.config/mopidy/mopidy.conf
+INFO     2020-01-13 16:06:21,556 [20969:MainThread] mopidy.config
+  Loading config from command line options
+INFO     2020-01-13 16:06:21,567 [20969:MainThread] mopidy.internal.path
+  Creating dir file:///home/justin/.cache/mopidy
+INFO     2020-01-13 16:06:21,567 [20969:MainThread] mopidy.internal.path
+  Creating dir file:///home/justin/.local/share/mopidy
+INFO     2020-01-13 16:06:21,895 [20969:MainThread] mopidy.__main__
+  Enabled extensions: http, file, softwaremixer, m3u, stream
+INFO     2020-01-13 16:06:21,895 [20969:MainThread] mopidy.__main__
+  Disabled extensions: none
+WARNING  2020-01-13 16:06:21,895 [20969:MainThread] mopidy.__main__
+  Found fatal audio configuration errors:
+WARNING  2020-01-13 16:06:21,895 [20969:MainThread] mopidy.__main__
+    audio/port unknown config key.
+ERROR    2020-01-13 16:06:21,895 [20969:MainThread] mopidy.__main__
+  Please fix fatal configuration errors, exiting...
+INFO     2020-01-13 16:11:13,772 [25587:MainThread] mopidy.__main__
+  Starting Mopidy 3.0.1
+INFO     2020-01-13 16:11:13,778 [25587:MainThread] mopidy.config
+  Loading config from builtin defaults
+INFO     2020-01-13 16:11:13,779 [25587:MainThread] mopidy.config
+  Loading config from file:///home/justin/.config/mopidy/mopidy.conf
+INFO     2020-01-13 16:11:13,779 [25587:MainThread] mopidy.config
+  Loading config from command line options
+INFO     2020-01-13 16:11:13,814 [25587:MainThread] mopidy.__main__
+  Enabled extensions: http, file, softwaremixer, m3u, stream
+INFO     2020-01-13 16:11:13,814 [25587:MainThread] mopidy.__main__
+  Disabled extensions: none
+WARNING  2020-01-13 16:11:13,814 [25587:MainThread] mopidy.__main__
+  Found fatal audio configuration errors:
+WARNING  2020-01-13 16:11:13,814 [25587:MainThread] mopidy.__main__
+    audio/port unknown config key.
+ERROR    2020-01-13 16:11:13,814 [25587:MainThread] mopidy.__main__
+  Please fix fatal configuration errors, exiting...
+INFO     2020-01-13 16:11:32,408 [25878:MainThread] mopidy.__main__
+  Starting Mopidy 3.0.1
+INFO     2020-01-13 16:11:32,415 [25878:MainThread] mopidy.config
+  Loading config from builtin defaults
+INFO     2020-01-13 16:11:32,416 [25878:MainThread] mopidy.config
+  Loading config from file:///home/justin/.config/mopidy/mopidy.conf
+INFO     2020-01-13 16:11:32,416 [25878:MainThread] mopidy.config
+  Loading config from command line options
+INFO     2020-01-13 16:11:32,451 [25878:MainThread] mopidy.__main__
+  Enabled extensions: softwaremixer, http, m3u, file, stream
+INFO     2020-01-13 16:11:32,451 [25878:MainThread] mopidy.__main__
+  Disabled extensions: none
+WARNING  2020-01-13 16:11:32,451 [25878:MainThread] mopidy.__main__
+  Found fatal audio configuration errors:
+WARNING  2020-01-13 16:11:32,451 [25878:MainThread] mopidy.__main__
+    audio/port unknown config key.
+ERROR    2020-01-13 16:11:32,451 [25878:MainThread] mopidy.__main__
+  Please fix fatal configuration errors, exiting...
