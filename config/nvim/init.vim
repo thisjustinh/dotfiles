@@ -1,4 +1,4 @@
-call plug#begin('~/.local/share/nvim/plugged')
+call plug#begin('~/.config/nvim/plugged')
 Plug 'neoclide/coc.nvim'
 Plug 'itchyny/lightline.vim'
 Plug 'scrooloose/nerdTree'
@@ -8,16 +8,20 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-markdown'
 Plug 'brooth/far.vim'
 Plug 'tpope/vim-fugitive'
-Plug 'ayu-theme/ayu-vim'
 Plug 'lervag/vimtex'
+Plug 'jalvesaq/Nvim-R'
 Plug 'SirVer/ultisnips'
+Plug 'shime/vim-livedown'
+Plug 'ryanonase/vim-devicons'
+Plug 'MaxMEllon/vim-jsx-pretty'
+Plug 'pangloss/vim-javascript'
+Plug 'ayu-theme/ayu-vim'
 call plug#end()
 
 " ---------------
-" Plugin mappings
+" NERDTree mappings
 " ---------------
 nmap <C-n> :NERDTreeToggle<CR>
-nmap <C-l> :LivedownToggle<CR>
 
 " Highlight the line where the cursor is
 set nocursorline
@@ -75,13 +79,17 @@ let g:vimtex_quickfix_mode=0
 set conceallevel=1
 let g:tex_conceal='abdmg'
 
+" ---------------
+" livedown config
+" ---------------
+nmap <C-l> :LivedownToggle<CR>
+
 " ----------------
 " ultisnips config
 " ----------------
-let g:UltiSnipsSnippetDirectories=['~/.config/nvim/plugged/ultisnips']
+let g:UltiSnipsSnippetDirectories=['~/.config/nvim/ultisnippets']
 
-let g:UltiSnipsExpandTrigger = '<Tab>'
-let g:UltiSnipsListSnippets = '<C-Tab>'
+let g:UltiSnipsExpandTrigger = '<C-Tab>'
 let g:UltiSnipsJumpForwardTrigger = '<C-j>'
 let g:UltiSnipsJumpBackwardTrigger = '<C-k>'
 

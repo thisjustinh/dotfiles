@@ -59,6 +59,22 @@ snippet item "Itemize" bA
 \end{itemize}
 endsnippet
 
+# Text Format
+
+snippet bld "Bold" wA
+\textbf{$1}$0
+endsnippet
+
+snippet tl "Italics" wA
+\emph{$1}$0
+endsnippet
+
+snippet rr "Arrow" wA
+-\textgreater{} $0
+endsnippet
+
+# Maths
+
 snippet math "Math" wA
 $${1}$`!p
 if t[2] and t[2][0] not in [',', '.', '?', '-', ' ']:
@@ -102,7 +118,7 @@ snippet super "Superscript" iA
 ^{$1}$0
 endsnippet
 
-snippet sq "Square" iA
+snippet qu "Square" iA
 ^2
 endsnippet
 
@@ -250,6 +266,10 @@ snippet set "set" wA
 \\{$1\\} $0
 endsnippet
 
+context "math()"
+snippet bi "binomial" iA
+\binom{$1}{$2}$0
+endsnippet
 
 context "math()"
 snippet cc "subset" Ai
